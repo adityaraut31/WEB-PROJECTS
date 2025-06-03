@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Mini Calculator</h3>
+
+<input id="a" type="number" placeholder="1">
+<input id="b" type="number" placeholder="2"><br><br>
+
+<button onclick="calc('+')">+</button>
+<button onclick="calc('-')">-</button>
+<button onclick="calc('*')">*</button>
+<button onclick="calc('/')">/</button>
+
+<p id="res">Result: </p>
+
+<script>
+  function calc(op) {
+    let x = +a.value, y = +b.value;
+    res.innerText = "Result: " + eval(x + op + y);
+  }
+</script>
+
+</body>
+</html>
