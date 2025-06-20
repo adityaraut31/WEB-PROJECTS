@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Savate:ital,wght@0,200..900;1,200..900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+body
+{
+  background-color: rgb(16, 165, 140);  
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav
+{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul
+{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height:65px;
+    background-color: rgb(32, 31, 31);
+    color:white;
+}
+
+nav ul li
+
+{
+padding:0 12px;
+}
+
+.brand img
+{
+width: 44px;
+padding: 0 8px;
+}
+
+.brand
+{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Savate', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg1.jpg');
+    background-size: cover;
+}
+
+.bottom 
+
+{
+position: sticky;
+bottom: 0;
+height:130px;
+background-color: black;
+color: white;
+bottom: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.icons
+{
+    margin-top: 14px;
+}
+
+.icons i 
+
+{
+    cursor: pointer;
+}
+
+#myProgressBar
+
+{
+width: 90vw;
+cursor: pointer;
+}
+
+.songitemcontainer
+
+{
+ margin-top: 30px;
+ display: flex;
+ flex-direction: column;
+ gap: 12px;
+}
+
+.songItem
+
+{
+ display: flex;
+ align-items: center;
+ background-color: rgb(158, 215, 203);
+ color: black;
+ border-radius: 34px;
+ padding: 10px 20px;
+ width: 50%;
+ max-width: 700px;
+ margin:auto;
+
+}
+
+.songItem img
+
+
+{
+ height: 50px;
+ width: 50px;
+ object-fit: cover;
+ border-radius: 50%;
+ margin-right: 20px;
+}
+
+.songName
+
+{
+ flex: 1;
+ font-weight: 600;
+ padding-left: 10px;
+
+}
+
+.timestamp
+
+{
+ margin: 0 23px;
+ display: flex;
+ align-items: center;
+ gap: 8px;
+
+ 
+}
+
+.timestamp i
+{
+    cursor: pointer;
+}
+
+.songinfo 
+
+{
+position: absolute;
+left: 10vw;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.songinfo img
+
+{
+opacity: 0;
+transition:opacity 0.5s ease-in ;
+}
