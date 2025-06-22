@@ -10,15 +10,15 @@ let allSongs = Array.from(document.getElementsByClassName('songItem'));
 
 // Song list
 let playlist = [
-  { name: "Warriyo - Mortals", file: "songs/1.mp3", cover: "covers/1.jpg" },
-  { name: "Cielo - Huma-Huma", file: "songs/2.mp3", cover: "covers/2.jpg" },
-  { name: "DEAF KEV - Invincible", file: "songs/3.mp3", cover: "covers/3.jpg" },
-  { name: "Different Heaven & EH!DE", file: "songs/4.mp3", cover: "covers/4.jpg" },
-  { name: "Janji - Heroes Tonight", file: "songs/5.mp3", cover: "covers/5.jpg" },
-  { name: "Rabba - Salam-e-Ishq", file: "songs/6.mp3", cover: "covers/6.jpg" },
-  { name: "Sakhiyaan - Salam-e-Ishq", file: "songs/7.mp3", cover: "covers/7.jpg" },
-  { name: "Bhula Dena - Salam-e-Ishq", file: "songs/8.mp3", cover: "covers/8.jpg" },
-  { name: "Tumhari Kasam - Salam-e-Ishq", file: "songs/9.mp3", cover: "covers/9.jpg" }
+  { name: "Warriyo -Mortals", file: "songs/1.mp3", cover: "covers/1.jpg" },
+  { name: "Cielo -Huma-Huma", file: "songs/2.mp3", cover: "covers/2.jpg" },
+  { name: "DEAF KEV -Invincible", file: "songs/3.mp3", cover: "covers/3.jpg" },
+  { name: "Different Heaven", file: "songs/4.mp3", cover: "covers/4.jpg" },
+  { name: "Janji -Heroes Tonight", file: "songs/5.mp3", cover: "covers/5.jpg" },
+  { name: "Rabba -Salam-e-Ishq", file: "songs/6.mp3", cover: "covers/6.jpg" },
+  { name: "Sakhiyaan -Salam-e-Ishq", file: "songs/7.mp3", cover: "covers/7.jpg" },
+  { name: "Bhula Dena -Salam-e-Ishq", file: "songs/8.mp3", cover: "covers/8.jpg" },
+  { name: "Tumhari Kasam -Salam-e-Ishq", file: "songs/9.mp3", cover: "covers/9.jpg" }
 ];
 
 // Updating each song card
